@@ -1,19 +1,26 @@
 <div class="m-index">
-  <header>
-    <i class="yo-ico">&#xe745;</i>
-    <ul>
-      <li class="active">热点2</li>
-      <li>关注2</li>
+  <div id="m-container"></div>
+  <footer>
+    <ul id="index-nav">
+      <li class="active" action-type='switch' data-name="home">
+        <i class="yo-ico">&#xe6bb;</i>
+        <b>首页</b>
+      </li>
+      <li action-type='switch' data-name="search">
+        <i class="yo-ico">&#xe65c;</i>
+        <b>发现</b>
+      </li>
+      <li class="camera">
+        <i class="yo-ico">&#xe664;</i>
+      </li>
+      <li action-type='switch' data-name="my">
+        <i class="yo-ico">&#xe735;</i>
+        <b>我的</b>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe603;</i>
+        <b>退出</b>
+      </li>
     </ul>
-    <i class="yo-ico">&#xe684;</i>
-  </header>
-  <nav>
-    <ul>
-      <li>足球现场</li>
-      <li>足球生活</li>
-      <li>足球美女</li>
-    </ul>
-  </nav>
-  <section>c</section>
-  <footer>d</footer>
+  </footer>
 </div>
