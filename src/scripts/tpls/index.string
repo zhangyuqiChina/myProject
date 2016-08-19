@@ -1,17 +1,61 @@
 <div class="m-index">
-	<!--头部-->
-	<header>
-		header
-	</header>
 	<!--中间-->
-	<div id="m-container"></div>
+	<div id="m-container">
+		 <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		      <section spa-widget="scroll" data-scroll-id="myScroll">
+		        <div>
+		        	
+		        	
+				          <div class="head">
+				            <img src="/footballSNS/images/arrow.png"/>
+				            <span>下拉刷新...</span>
+				          </div>
+		          
+		          
+				          <ul>
+				            <li ms-repeat-el="livelist">
+				              <img src="myProject/images/img1.jpg" />
+				            </li>
+				            <li ms-repeat-el="livelist">
+				             <img src="myProject/images/img2.jpg" />
+				            </li>
+				            <li ms-repeat-el="livelist">
+				              <img src="myProject/images/img3.jpg" />
+				            </li>
+				          </ul>
+		          
+		          
+				          <div class="foot">
+				            <img src="/footballSNS/images/arrow.png"/>
+				            <span>上拉加载更多...</span>
+				          </div>
+		        </div>
+		      </section>
+		    </div>
+		    <!--<div class="swiper-slide">足球生活</div>
+		    <div class="swiper-slide">足球美女</div>-->
+		 </div>
+	</div>
 	<!--底部-->
 	<footer>
-		<ul>
-			<li><i></i><b></b></li>
-			<li><i></i><b></b></li>
-			<li><i></i><b></b></li>
-			<li><i></i><b></b></li>
+		<ul id="index-nav">
+			<li class="active" action-type='switch' data-name="home">
+				<i class="yo-ico">&#xe64d;</i>
+				<b>首页</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe676;</i>
+				<b>精选</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe85f;</i>
+				<b>购物车</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe604;</i>
+				<b>我的</b>
+			</li>
 		</ul>
 	</footer>
 </div>
