@@ -62,6 +62,15 @@ section{
                  }
                  
              }
+             li:nth-child(3){
+                 position:relative;
+                 img{
+                     position:absolute;
+                     left:4rem;
+                     width:.4rem;
+                     height:.4rem;
+                 }
+             }
          }
      }
 }

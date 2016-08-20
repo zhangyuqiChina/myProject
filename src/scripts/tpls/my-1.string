@@ -15,7 +15,7 @@
 	  	 <ul>
 	  	 	  <li><span><strong>姓名</strong></span><input type="text" placeholder="您的姓名"/></li>
 	  	 	  <li><span><strong>身份证号</strong></span><input type="text" placeholder="您的身份证号码"/></li>
-	  	 	  <li><span><strong>常用联系人</strong></span><input type="text" placeholder="您最贴心的亲友"/></li>
+	  	 	  <li><span><strong>常用联系人</strong></span><input type="text" placeholder="您最贴心的亲友"/><img src="/myProject/images/myImg/icon-lian.png" alt="" /></li>
 	  	 	  <li><span><strong>银行卡号</strong></span><input type="text" placeholder="您最常用的银行卡号码"/></li>
 	  	 	  <li><span><strong>选择银行</strong></span></li>
 	  	 	  <li><span><strong>手机号码</strong></span><input type="text" placeholder="银行预留手机号码"/></li>
