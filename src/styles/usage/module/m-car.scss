@@ -29,8 +29,10 @@
             @include flex();
             line-height: 0.56rem;
             text-align: center;
-            font-size: 0.17rem;
+            font-size: 0.20rem;
             display: block;
+            color: #000;
+            font-weight: normal;
         }
     }
     .q-carContent{
@@ -44,6 +46,7 @@
                 width: 100%;
                 @include flexbox();
                 @include flex-direction(column);//纵向排列
+                background: #eee;
                 li{
                     width: 100%;
                     margin-top: .08rem;

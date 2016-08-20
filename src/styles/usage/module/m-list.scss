@@ -12,8 +12,8 @@
         @include justify-content(center);
         @include align-items(center);
         span{
-            width: .76rem;
-            height: .20rem;
+            width: 1.14rem;
+            height: .30rem;
             img{
                 width: 100%;
             }
@@ -55,6 +55,7 @@
                     @include flex-wrap(wrap);
                     @include align-content(flex-start);
                     @include justify-content(center);
+                    background: #eee;
                     li{
                         width: 1.63rem;
                         margin-top: .2rem;

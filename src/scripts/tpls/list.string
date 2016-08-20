@@ -1,7 +1,7 @@
 <div class="q-list">
 	<!--头部-->
 	<header class="q-header">
-		<i></i>
+		<!--<i></i>-->
 		<span><img src="/myProject/images/home_img.png" alt="" /></span>
 	</header>
 	<div class="q-listContent">
