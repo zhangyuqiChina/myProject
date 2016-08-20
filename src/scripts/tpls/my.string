@@ -1,1 +1,35 @@
-<section>my...</section>
+<section>
+	<!-- 上方指针处 -->
+     <div class="d-top">
+             <p class="d-p1">0.00</p>
+             <p class="d-p2">申请额度</p>
+     </div>
+     
+     <!-- 信用额度  -->
+     <div class="d-xin">
+     	<p>
+     		<span class="d-span1">信用额度</span>
+     		<span class="d-span2">￥0.00</span>
+     	</p>
+     	<p>
+     		<span class="d-span1">7天待还金额</span>
+     		<span class="d-span2">￥0.00</span>
+     	</p>
+     </div>
+     
+     <!--我的订单  -->
+     <div class="d-wo">
+     	<ul>
+     		<li><img src="/myProject/images/myImg/icon-dd.png"><p>我的订单</p></li>
+     		<li><img src="/myProject/images/myImg/icon-fk.png"/><p>待付款</p></li>
+     		<li><img src="/myProject/images/myImg/icon-sh.png"/><p>待收货</p></li>
+     		<li><img src="/myProject/images/myImg/icon-xj.png"/><p>现金券</p></li>
+     		<li><img src="/myProject/images/myImg/icon-j.png"/><p>免息券</p></li>
+     	</ul>    	
+     </div>
+     
+     <!--列表处  -->
+     <div>
+     	
+     </div>
+</section>
