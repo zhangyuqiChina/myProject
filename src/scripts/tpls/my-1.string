@@ -1,0 +1,25 @@
+
+
+<section>
+	 <!-- 信息认证  -->
+	  <div class="d-top">
+	      <img src="/myProject/images/myImg/zuo.png" alt="" />
+	      <span><strong>信息认证</strong></span>
+	  </div>
+	  
+	  <!-- 认证提示   -->
+	  <div class="d-ti"><strong>信息认证成功后将不可修改</strong></div>
+	  
+	  <!-- 各种认证处   -->
+	  <div class="d-ge">
+	  	 <ul>
+	  	 	  <li><span>姓名</span><input type="text" placeholder="您的姓名"/></li>
+	  	 	  <li><span>身份证号</span><input type="text" placeholder="您的身份证号码"/></li>
+	  	 	  <li><span>常用联系人</span><input type="text" placeholder="您最贴心的好友"/></li>
+	  	 	  <li><span>银行卡号</span><input type="text" placeholder="您最常用的银行卡号码"/></li>
+	  	 	  <li><span>选择银行</span></li>
+	  	 	  <li><span>手机号码</span><input type="text" placeholder="银行预留手机号码"/></li>
+	  	 	  <li><span>验证码</span><input type="text" placeholder="手机验证码"/></li>
+	  	 </ul>
+	  </div>
+</section>

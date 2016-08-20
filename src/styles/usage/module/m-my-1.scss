@@ -1,0 +1,66 @@
+
+
+
+section{
+    width:100%;
+    height:100%;
+    //信息认证
+   .d-top{
+        width:100%;
+        height:.70rem;
+        background:#fff;
+        position: relative;
+        img{
+            width:.28rem;
+            height:.30rem;
+            position: absolute;
+            left:.2rem;
+            top:50%;
+            margin-top:-.15rem;
+            
+        }
+        span{
+            font-size: .26rem; 
+            line-height: .70rem;
+            position:absolute;
+            left:36%;
+           
+        }
+     }
+     
+     //认证提示
+     .d-ti{
+         width:100%;
+         height:.48rem;
+         line-height: .48rem;
+         text-align: center;
+         background:yellow;
+     }
+     
+     //各种认证处
+     .d-ge{
+         ul{
+             li{
+                 background: #fff;
+                 display: block;
+                 width:100%;
+                 height:.60rem;
+                 border-bottom: 2px solid #eee;
+                 line-height: .58rem;
+                 span{
+                     display: block;
+                     float: left;
+                     font-size: .2rem;
+                     width:1.2rem;
+                 }
+                 input{
+                     float: left;
+                     border:none;
+                     font
+                     
+                 }
+                 
+             }
+         }
+     }
+}

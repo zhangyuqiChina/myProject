@@ -1,36 +1,39 @@
-*{margin:0;padding:0;}
-
- //上方指针处 
+section{
+    width: 100%;
+    height: 100%;
+//  @include flexbox();
+//上方指针处 
 .d-top{
-    width:100%;height:1.98rem;
-    background:url(../../../../images/myImg/xin.gif) no-repeat;
-    background-size:100% 100%;
+    width:100%;height:2.3rem;
+@include flexbox();
     position: relative;
-    .d-p1{display: block;
-          font-size:.40rem;
-          color:#fff;
-          position:absolute;
-          top:47%;left:41%;
-          }
-    .d-p2{display: block;
-          width:1.4rem;height:.3rem;
-          background:#FB829E;
-          border-radius:5px;
-          font-size:.22rem;
+    .d-topImg{
+        width: 100%;
+        @include flex();
+        div img{
+            width: 100%;
+            height:2.3rem;
+        }
+    }
+    p{display: block;
+          width: .70rem;
+          height: .30rem;
           text-align: center;
-          line-height:.3rem;
+          line-height: .30rem;
+          font-size:.24rem;
           color:#fff;
           position:absolute;
-          top:80%;left:32%;
+          bottom: .80rem;
+          left: 50%;
+          margin-left: -.35rem;
           }
-    
+
     }
     
 //  信用额度
 .d-xin{
      width:100%;height:.4rem;
      background:#fff;
-     
       p{
          display: block;
          width:50%;
@@ -67,14 +70,69 @@
                display:block;
                width:.4rem;height:.4rem;
                margin-left:18%;
-               
+              
            }
+           
        }
        li:nth-child(3){
                border-right:1px solid #eee;
                
            }
+       li:nth-child(4){
+               position: relative;
+            .d-biao{
+                position:absolute;
+                top:.01rem;left:.35rem;
+                width:.2rem;height:.2rem;
+                border-radius: 50%;
+                background:#F3537F;
+                color:#fff;
+            }   
+           }
+           li:nth-child(5){
+               position: relative;
+            .d-zhu{
+                position:absolute;
+                top:.01rem;left:.35rem;
+                width:.2rem;height:.2rem;
+                border-radius: 50%;
+                background:#F3537F;
+                color:#fff;
+            }   
+           }
    }
 }
 
 //列表处
+.d-lie{
+    margin-top:.1rem;
+    width:100%;
+    height:3.25rem;
+    background:#fff;
+    ul{
+        height:3.25rem;
+         border-bottom:2px solid #eee;
+        li{
+            width:100%;height:.6rem;
+            border-top:2px solid #eee;
+            font-size: .19rem; 
+            line-height: .6rem;
+            img{                              
+                width:.4rem;height:.4rem;
+            }
+            .d-dan{
+                margin-left:.15rem;
+            }
+            .d-mimg{
+                display:inline-block;
+                margin-left:50%;
+                width:.25rem;height:.25rem;
+            }
+        }
+        li:nth-child(5){
+             border-top:.2rem solid #eee;
+            
+        }
+    }
+}
+}
