@@ -48,6 +48,3 @@ SPA.defineView('index', {
 
 
 
-
-
-

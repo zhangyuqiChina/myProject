@@ -1,7 +1,27 @@
-<section>
-    <!--头部-->
 	<header>
 		小象优品
 	</header>
-</section>
+	<!--中间-->
+	<div id="m-container">
+		 <div class="h-lun swiper-wrapper">
+		 	<div class="swiper-wrapper">
+				    <div class="swiper-slide"><img src="/myProject/images/img1.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/img2.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/img3.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/img4.jpg"/></div>
+  			</div>
+  		 </div>	
+  		 <nav>
+				<ul id="home-nav">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+		</nav>
+  	</div>	 
+		
 
