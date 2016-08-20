@@ -21,6 +21,13 @@ SPA.defineView('home', {
   			success:function(res){
   				vm.livelist=res.data;
   			}
+//			var mySwiper=new Swiper("#m-container",{
+//				loop:false,
+//				onSlideChangeStart:function(swiper){
+//					var index=swiper.activeIndex;
+//					
+//				}
+//			})
   		})
   	}
   }
