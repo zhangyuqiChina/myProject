@@ -21,6 +21,7 @@ SPA.defineView('home', {
   			success:function(res){
   				vm.livelist=res.data;
   			}
+<<<<<<< HEAD
 //			var mySwiper=new Swiper("#m-container",{
 //				loop:false,
 //				onSlideChangeStart:function(swiper){
@@ -28,6 +29,8 @@ SPA.defineView('home', {
 //					
 //				}
 //			})
+=======
+>>>>>>> master
   		})
   	}
   }
