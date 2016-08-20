@@ -1,22 +1,46 @@
 <div class="q-list">
 	<!--头部-->
 	<header class="q-header">
+		<i></i>
 		<span><img src="/myProject/images/home_img.png" alt="" /></span>
 	</header>
-	<section class="q-listContent">
-		<div>
-			<div class="q-listImg"><img src="/myProject/images/img3.jpg" alt="" /></div>
+	<div class="q-listContent">
+		<section spa-widget="scroll">
+			<div>
+			<div class="q-listImg"><span><img src="/myProject/images/listImg/list-img.jpg" alt="" /></span></div>
 			<div class="q-listUl">
 				<ul>
 					<li>
-						<div class="q-list-liImg"><img src=""/></div>
+						<div class="q-list-liImg"><img src="/myProject/images/listImg/list-pic.jpg"/></div>
 						<div class="q-list-liText">
-							<p></p>
-							<p></p>
+							<p>【华为】T1-701U 荣耀传世什么玩意的这个标题也很长</p>
+							<p><span>58.25</span><em>x12期</em></p>
+						</div>
+					</li>
+					<li>
+						<div class="q-list-liImg"><img src="/myProject/images/listImg/list-pic.jpg"/></div>
+						<div class="q-list-liText">
+							<p>【华为】T1-701U 荣耀传世什么玩意的这个标题也很长</p>
+							<p><span>58.25</span><em>x12期</em></p>
+						</div>
+					</li>
+					<li>
+						<div class="q-list-liImg"><img src="/myProject/images/listImg/list-pic.jpg"/></div>
+						<div class="q-list-liText">
+							<p>【华为】T1-701U 荣耀传世什么玩意的这个标题也很长</p>
+							<p><span>58.25</span><em>x12期</em></p>
+						</div>
+					</li>
+					<li>
+						<div class="q-list-liImg"><img src="/myProject/images/listImg/list-pic.jpg"/></div>
+						<div class="q-list-liText">
+							<p>【华为】T1-701U 荣耀传世什么玩意的这个标题也很长</p>
+							<p><span>58.25</span><em>x12期</em></p>
 						</div>
 					</li>
 				</ul>
 			</div>
-		</div>
-	</section>
+			</div>
+		</section>
+	</div>
 </div>
