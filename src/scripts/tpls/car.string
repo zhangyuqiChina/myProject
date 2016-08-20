@@ -6,7 +6,31 @@
 	<div class="q-carContent">
 		<section>
 			<ul>
-				<li></li>
+				<li>
+					<div class="q-topBox">
+						<div class="q-left">
+							<div class="q-carImg">
+								<img src="/myProject/images/img1.jpg" alt="" />
+							</div>
+						</div>
+						<div class="q-right">
+							<p>【JHS】A011A 家用节能移动空调 一体机 这个标题很长的啊！</p>
+							
+							<div class="q-money">
+								<del>￥2120.00</del>
+								<div class="yo-number">
+								    <span class="minus disabled">-</span>
+								    <input class="input" type="text" value="0" />
+								    <span class="plus">+</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="q-footBox">
+						<span></span>
+						<span></span>
+					</div>
+				</li>
 				<li></li>
 			</ul>
 		</section>
