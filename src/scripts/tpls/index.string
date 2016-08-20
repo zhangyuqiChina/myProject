@@ -1,41 +1,36 @@
 <div class="m-index">
 	<!--中间-->
 	<div id="m-container">
-		 <div class="swiper-wrapper">
-		    <div class="swiper-slide">
+		 <div class="h-lun swiper-wrapper">
+		 	<div class="swiper-wrapper">
+				    <div class="swiper-slide"><img src="/myProject/images/img1.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/img2.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/img3.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/img4.jpg"/></div>
+  			</div>
+  		 </div>	
+			  <!--<div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			    	
+			    </div>
+			    <div class="swiper-slide">足球生活</div>
+			    <div class="swiper-slide">足球美女</div>
+			  </div>
+			  		-->
+		    <!--<div class="swiper-slide">
 		      <section spa-widget="scroll" data-scroll-id="myScroll">
-		        <div>
-		        	
-		        	
-				          <div class="head">
-				            <img src="/footballSNS/images/arrow.png"/>
-				            <span>下拉刷新...</span>
-				          </div>
-		          
-		          
-				          <ul>
-				            <li ms-repeat-el="livelist">
-				              <img src="myProject/images/img1.jpg" />
-				            </li>
-				            <li ms-repeat-el="livelist">
-				             <img src="myProject/images/img2.jpg" />
-				            </li>
-				            <li ms-repeat-el="livelist">
-				              <img src="myProject/images/img3.jpg" />
-				            </li>
-				          </ul>
-		          
-		          
-				          <div class="foot">
-				            <img src="/footballSNS/images/arrow.png"/>
-				            <span>上拉加载更多...</span>
-				          </div>
-		        </div>
+			        <div>
+					          <div class="head">
+					            <img src="/footballSNS/images/arrow.png"/>
+					            <span>下拉刷新...</span>
+					          </div>
+					          <div class="foot">
+					            <img src="/footballSNS/images/arrow.png"/>
+					            <span>上拉加载更多...</span>
+					          </div>
+			        </div>
 		      </section>
-		    </div>
-		    <!--<div class="swiper-slide">足球生活</div>
-		    <div class="swiper-slide">足球美女</div>-->
-		 </div>
+		    </div>-->
 	</div>
 	<!--底部-->
 	<footer>
