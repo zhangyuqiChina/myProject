@@ -1,1 +1,16 @@
-<section>car...</section>
+<div id="q-car">
+	<!--头部-->
+	<header class="q-header">
+		<span>购物车</span>
+	</header>
+	<div class="q-carContent">
+		<section>
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+		</section>
+	</div>
+	
+	
+</div>

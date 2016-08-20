@@ -1,1 +1,25 @@
-<section>select...</section>
+<section id="a-section">
+	<div id="a-section-mata">
+		<header>
+			<h3>精选</h3>
+		</header>
+	
+		<div class="a-sea">
+			<ul>
+			  <li>
+			    <i>
+			    	<img class="a-img" src="/myProject/images/img4.jpg" alt="">
+			    	<div class="a-sea-izindex"><span>没有性感大红唇，还怎么撩男神</span></div>
+			    </i>
+			   <b>我要撩男神</b>
+			  </li> 
+			</ul>	
+		</div>
+		
+	
+	
+	
+	</div>	
+</section>
+
+
