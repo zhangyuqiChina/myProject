@@ -1,0 +1,41 @@
+#q-car{
+    height: 100%;
+    width: 100%;
+    background: #fafafa;
+    @include flexbox();//盒子
+    @include flex-direction(column);//纵向排列
+    .q-header{
+        width: 100%;
+        height: 0.56rem;
+        background: #fff;
+        @include border(0 0 1px 0, #eee); //1像素边框
+        @include flexbox();
+        span{
+            @include flex();
+            line-height: 0.56rem;
+            text-align: center;
+            font-size: 0.17rem;
+            display: block;
+        }
+    }
+    .q-carContent{
+        @include flex();
+        width: 100%;
+        section{
+            width: 100%;
+            height: 100%;
+            @include flexbox();
+            ul{
+                width: 100%;
+                @include flexbox();
+                @include flex-direction(column);//纵向排列
+                li{
+                    width: 100%;
+                    height: 1.35rem;
+                    margin-top: .08rem;
+                    background: red;
+                }
+            }
+        }
+    }
+}
