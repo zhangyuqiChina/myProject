@@ -1,0 +1,22 @@
+<div class="q-list">
+	<!--头部-->
+	<header class="q-header">
+		<span><img src="/myProject/images/home_img.png" alt="" /></span>
+	</header>
+	<section class="q-listContent">
+		<div>
+			<div class="q-listImg"><img src="/myProject/images/img3.jpg" alt="" /></div>
+			<div class="q-listUl">
+				<ul>
+					<li>
+						<div class="q-list-liImg"><img src=""/></div>
+						<div class="q-list-liText">
+							<p></p>
+							<p></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>
