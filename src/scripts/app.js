@@ -7,4 +7,5 @@ require('./views/home.js');
 require('./views/select.js');
 require('./views/car.js');
 require('./views/my.js');
+require('./views/my-1.js');
 
