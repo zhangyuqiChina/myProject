@@ -8,7 +8,6 @@ SPA.defineView('home', {
   		vm.livelist=[];
   	}
   }],
-  
 //绑定视图事件
 bindEvents:{
 	'show':function(){
@@ -21,19 +20,15 @@ bindEvents:{
 				vm.livelist=res.data;
 			}
 			})
-			var mySwiper=new Swiper("#m-container",{
+			var mySwiper=new Swiper("#home-container",{
 				loop:false,
-				onSlideChangeStart:function(swiper){
-					var index=swiper.activeIndex;
-					 $('#home-nav li').eq(index).addClass('active').siblings().removeClass('active');
-				}
+				pagination : '.swiper-pagination',
+				paginationClickable :true,
+				autoplay: 2000,
+				loop : true,
 			});
-			$('#home-nav li').on('tap', function () {
-        mySwiper.slideTo($(this).index());
-      });
 	}
 }
-  
 });
 
 

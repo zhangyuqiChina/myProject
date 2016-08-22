@@ -1,27 +1,22 @@
-	<header>
+	<header class="home-header">
 		小象优品
 	</header>
 	<!--中间-->
-	<div id="m-container">
-		 <div class="h-lun swiper-wrapper">
+	<div class="swiper-container" id="home-container">
 		 	<div class="swiper-wrapper">
 				    <div class="swiper-slide"><img src="/myProject/images/img1.jpg"/></div>
 				    <div class="swiper-slide"><img src="/myProject/images/img2.jpg"/></div>
 				    <div class="swiper-slide"><img src="/myProject/images/img3.jpg"/></div>
 				    <div class="swiper-slide"><img src="/myProject/images/img4.jpg"/></div>
-  			</div>
-  		 </div>	
-  		 <nav>
-				<ul id="home-nav">
-					<li class="active"></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-		</nav>
-  	</div>	 
+				    <div class="swiper-slide"><img src="/myProject/images/11.png"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/5.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/6.jpg"/></div>
+				    <div class="swiper-slide"><img src="/myProject/images/7.jpg"/></div>
+  		   </div>
+  		   <div class="swiper-pagination"></div>
+  	</div>	
+  	<h3 class="h-xin">
+  		新品推荐
+  	</h3>
 		
 
