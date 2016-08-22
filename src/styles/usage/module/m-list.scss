@@ -26,6 +26,7 @@
         section{
             width: 100%;
             height: 100%;
+            background: #eee;
             @include flexbox();
             @include flex-direction(column);//纵向排列
             .q-listImg{
@@ -55,7 +56,6 @@
                     @include flex-wrap(wrap);
                     @include align-content(flex-start);
                     @include justify-content(center);
-                    background: #eee;
                     li{
                         width: 1.63rem;
                         margin-top: .2rem;
