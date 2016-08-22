@@ -1,4 +1,6 @@
-section{
+
+#wrapper{
+#d-dd{
     width: 100%;
     height: 100%;
 //  @include flexbox();
@@ -13,6 +15,9 @@ section{
         div img{
             width: 100%;
             height:2.3rem;
+            position:absolute;
+            top:0;
+            left:0
         }
     }
     p{display: block;
@@ -22,7 +27,7 @@ section{
           line-height: .30rem;
           font-size:.24rem;
           color:#fff;
-          position:absolute;
+        position:absolute;
           bottom: .80rem;
           left: 50%;
           margin-left: -.35rem;
@@ -107,10 +112,10 @@ section{
 .d-lie{
     margin-top:.1rem;
     width:100%;
-    height:3.25rem;
+//  height:4rem;
     background:#fff;
     ul{
-        height:3.25rem;
+//      height:4rem;
          border-bottom:2px solid #eee;
         li{
             width:100%;height:.6rem;
@@ -129,10 +134,11 @@ section{
                 width:.25rem;height:.25rem;
             }
         }
-        li:nth-child(5){
-             border-top:.2rem solid #eee;
-            
-        }
+//      li:nth-child(5){
+//           margin-top:.2rem;
+//          height:.6rem;
+//      }
     }
+}
 }
 }
