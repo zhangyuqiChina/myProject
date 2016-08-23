@@ -1,5 +1,5 @@
-<div id="wrapper"> 
-<section id="d-dd">
+
+<div id="d-dd">
 	<!-- 上方指针处 -->
 	<div class="d-top">
      	<div class="d-topImg">
@@ -32,16 +32,21 @@
      </div>
      
      <!--列表处  -->
-    <div class="d-lie">
-     	<ul>
-     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>我的账单</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
-     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>分享有礼</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
-     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>账户管理</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
-     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>收货地址</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
-     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>联系客服</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
-     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>常见问题</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
-     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>设置选项</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
-     	</ul>
-     </div>
-</section>
+     <section spa-widget="scroll" style="height:55%;">
+     	<div>
+		    <div class="d-lie">
+		     	<ul>
+		     		<li><img src="/myProject/images/myImg/icon-zd.png"><span class="d-dan"><strong>我的账单</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
+		     		<li><img src="/myProject/images/myImg/icon-fx.png"><span class="d-dan"><strong>分享有礼</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
+		     		<li><img src="/myProject/images/myImg/icon-zh.png"><span class="d-dan"><strong>账户管理</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
+		     		<li><img src="/myProject/images/myImg/icon-dz.png"><span class="d-dan"><strong>收货地址</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
+		     		<li><img src="/myProject/images/myImg/icon-kf.png"><span class="d-dan"><strong>联系客服</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
+		     		<li><img src="/myProject/images/myImg/icon-wt.png"><span class="d-dan"><strong>常见问题</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
+		     		<li><img src="/myProject/images/myImg/icon-sz.png"><span class="d-dan"><strong>设置选项</strong></span><span><img src="/myProject/images/myImg/fan.png" class="d-mimg"></span></li>
+		     	   
+		     	</ul>
+		     </div>
+		</div>
+     </section>
+   
 </div>
