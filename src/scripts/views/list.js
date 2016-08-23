@@ -11,8 +11,22 @@ SPA.defineView('list', {
         vm.isShowLoading = true;
         vm.bannerUrl = "";//这里一定要定义一下
       }
-    }
-  ],
+  }],
+  
+  //绑定单击事件
+  bindActions: {
+  	'back': function(){
+  		this.hide();
+  	},
+  	
+  	'gotoDetails': function(el,data){
+		SPA.open('car', {
+			param:{
+				id: data.goodscode
+			}
+		});
+  	}
+  },
   
   // 绑定视图事件
   bindEvents: {
