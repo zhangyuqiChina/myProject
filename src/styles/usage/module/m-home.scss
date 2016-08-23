@@ -1,7 +1,7 @@
-section{
-    header{
+  //头部 
+    .home-header{
         height: 0.44rem;
-        background: $base-color;
+        background: #fff;
         display: flex;
         flex-flow: row;
         justify-content: center;
@@ -10,8 +10,85 @@ section{
         color: red;
         font-weight: bolder;
     }
-    
-    
-    
-    
-}
+      //轮播图1 
+    #home-container{
+        width: 100%;
+        height:3rem;
+        .swiper-slide{
+            img{
+                height:3rem;
+                width: 100%;
+            }
+        }
+        .swiper-pagination{
+            width: 100%;
+        }
+    }
+    //标题
+    .h-xin{
+        height: .3rem;
+        width: 100%;
+        text-align: center;
+        line-height: 0.3rem;
+        margin-top: .1rem;
+        background: #fff;
+        font-weight: bolder;
+    }
+//无惯性轮播图
+    #home-container1{
+     height: 1.5rem; 
+     ul{
+         @include flexbox();
+         @include justify-content(space-around);
+         li{
+             @include flexbox();
+             @include justify-content(center);
+             @include flex-direction(column)
+             img{
+                 width: 0.75rem;
+                 height: 0.75rem;
+             }
+             p{
+               &:first-child{
+                @include ellipsis(50%,1);
+                }
+             }
+         }
+     }
+       
+    }
+
+
+//大图
+    .hxb-home{
+        width: 100%;
+        height: 3rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

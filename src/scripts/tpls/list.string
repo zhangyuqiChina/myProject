@@ -1,0 +1,25 @@
+<div class="q-list">
+	<!--头部-->
+	<header class="q-header">
+		<!--<i></i>-->
+		<span><img src="/myProject/images/home_img.png" alt="" /></span>
+	</header>
+	<div class="q-listContent">
+		<section spa-widget="scroll">
+			<div>
+			<div class="q-listImg"><span><img ms-src="{{bannerUrl}}" alt="" /></span></div>
+			<div class="q-listUl">
+				<ul>
+					<li ms-repeat-d="qlist">
+						<div class="q-list-liImg"><img ms-src="d.thumbnailUrl"/></div>
+						<div class="q-list-liText">
+							<p ms-text="d.goodTitle"></p>
+							<p><span ms-text="(d.originalPrice/1000).toFixed(2)"></span><em ms-text="d.instalmentPeriods"></em></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</section>
+	</div>
+</div>

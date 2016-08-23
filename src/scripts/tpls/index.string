@@ -1,36 +1,6 @@
 <div class="m-index">
 	<!--中间-->
 	<div id="m-container">
-		 <div class="h-lun swiper-wrapper">
-		 	<div class="swiper-wrapper">
-				    <div class="swiper-slide"><img src="/myProject/images/img1.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/img2.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/img3.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/img4.jpg"/></div>
-  			</div>
-  		 </div>	
-			  <!--<div class="swiper-wrapper">
-			    <div class="swiper-slide">
-			    	
-			    </div>
-			    <div class="swiper-slide">足球生活</div>
-			    <div class="swiper-slide">足球美女</div>
-			  </div>
-			  		-->
-		    <!--<div class="swiper-slide">
-		      <section spa-widget="scroll" data-scroll-id="myScroll">
-			        <div>
-					          <div class="head">
-					            <img src="/footballSNS/images/arrow.png"/>
-					            <span>下拉刷新...</span>
-					          </div>
-					          <div class="foot">
-					            <img src="/footballSNS/images/arrow.png"/>
-					            <span>上拉加载更多...</span>
-					          </div>
-			        </div>
-		      </section>
-		    </div>-->
 	</div>
 	<!--底部-->
 	<footer>
@@ -39,15 +9,15 @@
 				<i class="yo-ico">&#xe64d;</i>
 				<b>首页</b>
 			</li>
-			<li>
+			<li action-type='switch' data-name="select">
 				<i class="yo-ico">&#xe676;</i>
 				<b>精选</b>
 			</li>
-			<li>
+			<li action-type='switch' data-name="car">
 				<i class="yo-ico">&#xe85f;</i>
 				<b>购物车</b>
 			</li>
-			<li>
+			<li action-type='switch' data-name="my">
 				<i class="yo-ico">&#xe604;</i>
 				<b>我的</b>
 			</li>
