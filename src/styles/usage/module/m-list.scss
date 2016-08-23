@@ -95,7 +95,11 @@
                                         line-height: 21px;
                                         font-size: 12px;
                                         color: #a3a3a3;
-                                        transform: scale(.9);
+//                                      transform: scale(.9);
+                                    }
+                                    em:before{
+                                        content: "x";
+                                        margin-left: 5px;
                                     }
                                 }
                             }
