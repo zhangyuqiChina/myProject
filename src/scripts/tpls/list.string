@@ -1,7 +1,7 @@
 <div class="q-list">
 	<!--头部-->
 	<header class="q-header">
-		<!--<i></i>-->
+		<i class="yo-ico" action-type="back">&#xe67b;</i>
 		<span><img src="/myProject/images/home_img.png" alt="" /></span>
 	</header>
 	<div class="q-listContent">
@@ -10,7 +10,7 @@
 			<div class="q-listImg"><span><img ms-src="{{bannerUrl}}" alt="" /></span></div>
 			<div class="q-listUl">
 				<ul>
-					<li ms-repeat-d="qlist">
+					<li ms-repeat-d="qlist" action-type="gotoDetails" ms-attr-data-goodsCode="d.goodsCode">
 						<div class="q-list-liImg"><img ms-src="d.thumbnailUrl"/></div>
 						<div class="q-list-liText">
 							<p ms-text="d.goodTitle"></p>
