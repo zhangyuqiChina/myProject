@@ -57,11 +57,11 @@
                     @include align-content(flex-start);
                     @include justify-content(center);
                     li{
-                        width: 1.63rem;
+                        width: 45%;
                         margin-top: .2rem;
                         background: #fff;
                         .q-list-liImg{
-                            width: 1.63rem;
+                            width: 100%;
                             height: 1.63rem;
                             img{
                                 width: 100%;
