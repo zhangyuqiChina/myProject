@@ -1,2 +1,42 @@
 
- 
+<header class="d-header2">
+	<ul>
+		<li><img src="/myProject/images/myImg/zuo.jpg" alt="" class="d-img1"/></li>
+		<li><span><strong>商品详情</strong></span></li>
+		<li><img src="/myProject/images/myImg/fen.jpg" alt="" class="d-img2"/></li>
+    </ul>
+</header>
+<section spa-widget="scroll" style="height:100%;">
+    <div>
+	    <!-- 主图片上文字   -->
+			 <div class="d-wen">
+			 	<ul>
+			 		<li><strong><p>【优者】男女商务运动防水插卡</p><p>蓝牙电话手表</p></strong></li>
+			 		<li><img src="/myProject/images/myImg/hua.jpg" alt=""/></li>
+			 		<li>¥37.42x12期</li>
+			 		<li>12期免息分期，仅需要每期支付¥37.42</li>
+			 	</ul>			 	
+			 </div>
+			 
+	    <!-- 主图片   -->
+	         <div class="d-zhu">
+	         	<div class="d-zhufu">
+	         		<img src="/myProject/images/myImg/zhu.jpg" alt=""/>
+	         	</div>
+	         </div>
+	         
+	    <!-- 商品来源   -->
+		     <div class="d-lai">
+		    	<p><span><strong>商品来源</strong></span>&nbsp;&nbsp;|&nbsp;&nbsp;Commodity source</p>
+		    	<p>商品来源：&nbsp;<span>天猫&nbsp;TMALL.COM</span></p>
+		    	<p><span>商家名称：&nbsp;</span>优者数码旗舰店</p>
+		     </div>
+    </div>
+</section>
+ <footer class="d-footer">
+ 	<ul>
+ 		<li><a href="#"></a><img src="/myProject/images/myImg/gou.jpg" alt=""/><p>购物车</p></a></li>
+ 		<li><a href="#">加入购物车</a></li>
+ 		<li><a href="#">立即购买</a></li> 		
+ 	</ul>
+ </footer>
