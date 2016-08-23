@@ -2,21 +2,144 @@
 		小象优品
 	</header>
 	<!--中间-->
-	<div class="swiper-container" id="home-container">
-		 	<div class="swiper-wrapper">
-				    <div class="swiper-slide"><img src="/myProject/images/img1.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/img2.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/img3.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/img4.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/11.png"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/5.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/6.jpg"/></div>
-				    <div class="swiper-slide"><img src="/myProject/images/7.jpg"/></div>
-  		   </div>
-  		   <div class="swiper-pagination"></div>
-  	</div>	
-  	<h3 class="h-xin">
-  		新品推荐
-  	</h3>
+	<section spa-widget='scroll'>
+		<div class="scroll">
+			<!--轮播图-->
+			<div class="swiper-container" id="home-container">
+			 			<div class="swiper-wrapper">
+						   	<div class="swiper-slide"><img src="/myProject/images/img1.jpg"/></div>
+						    <div class="swiper-slide"><img src="/myProject/images/img2.jpg"/></div>
+						    <div class="swiper-slide"><img src="/myProject/images/img3.jpg"/></div>
+						    <div class="swiper-slide"><img src="/myProject/images/img4.jpg"/></div>
+						    <div class="swiper-slide"><img src="/myProject/images/11.png"/></div>
+						    <div class="swiper-slide"><img src="/myProject/images/5.jpg"/></div>
+						    <div class="swiper-slide"><img src="/myProject/images/6.jpg"/></div>
+						    <div class="swiper-slide"><img src="/myProject/images/7.jpg"/></div>
+	  		   			</div>
+	  		   			<div class="swiper-pagination"></div>
+	  		</div>	
+	  		<!--标题-->
+  	 		<h3 class="h-xin">
+  				·新品推荐·
+  			</h3>
+  			<!--横向滚动轮播图-->
+			<div class="swiper-container" id="home-container1">
+			 		<div class="swiper-wrapper">
+			 				<div class="swiper-slide">
+			 					<ul>
+			 						<li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li>
+			 						<li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li>
+			 						<li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li><li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li>
+			 					</ul>
+			 				</div>
+			 				<div class="swiper-slide">
+			 					<ul>
+			 						<li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li>
+			 						<li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li>
+			 						<li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li><li>
+			 							<img src="/myProject/images/hwatch.jpg" />
+				 						<p>【友者】男女系类手表</p>
+										<p><span>￥37.42</span>x12期</p>
+			 						</li>
+			 					</ul>
+			 				</div>
+					</div>
+			</div>
+			<!--大图片-->
+			<div class="hxb-home">
+				<img src="/myProject/images/huo.jpg" />
+			</div>
+		</div>		
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	<!--<ul class="h-tui">
+  		<li>
+  			<img src="/myProject/images/hwatch.jpg" />
+  			<p>【友者】男女系类手表</p>
+  			<p><span>￥37.42</span>x12期</p>
+  		</li>
+  		<li>
+  			<img src="/myProject/images/hwatch.jpg" />
+  			<p>【友者】男女系类手表</p>
+  			<p><span>￥37.42</span>x12期</p>
+  		</li>
+  		<li>
+  			<img src="/myProject/images/hwatch.jpg" />
+  			<p>【友者】男女系类手表</p>
+  			<p><span>￥37.42</span>x12期</p>
+  		</li>
+  	</ul>-->
+  	
 		
 
