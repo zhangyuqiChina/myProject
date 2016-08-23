@@ -9,15 +9,15 @@
 				<i class="yo-ico">&#xe64d;</i>
 				<b>首页</b>
 			</li>
-			<li>
+			<li action-type='switch' data-name="select">
 				<i class="yo-ico">&#xe676;</i>
 				<b>精选</b>
 			</li>
-			<li>
+			<li action-type='switch' data-name="car">
 				<i class="yo-ico">&#xe85f;</i>
 				<b>购物车</b>
 			</li>
-			<li>
+			<li action-type='switch' data-name="my">
 				<i class="yo-ico">&#xe604;</i>
 				<b>我的</b>
 			</li>

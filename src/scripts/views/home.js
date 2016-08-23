@@ -12,14 +12,14 @@ SPA.defineView('home', {
 bindEvents:{
 	'show':function(){
 		var vm=this.getVM();
-		$.ajax({
-			url:'/myProject/mock/livelist.json',
-			type:'get',
-			data:{},
-			success:function(res){
-				vm.livelist=res.data;
-			}
-			})
+//		$.ajax({
+//			url:'/myProject/mock/livelist.json',
+//			type:'get',
+//			data:{},
+//			success:function(res){
+//				vm.livelist=res.data;
+//			}
+//			})
 			var mySwiper=new Swiper("#home-container",{
 				loop:false,
 				pagination : '.swiper-pagination',
@@ -27,6 +27,18 @@ bindEvents:{
 				autoplay: 2000,
 				loop : true,
 			});
+			
+			var mySwiper = new Swiper('#home-container1',{
+				freeMode : true,
+				freeModeMomentum : false,
+			})
+			
+			
+			
+			
+			
+			
+			
 	}
 }
 });
