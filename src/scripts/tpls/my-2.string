@@ -31,6 +31,42 @@
 		    	<p>商品来源：&nbsp;<span>天猫&nbsp;TMALL.COM</span></p>
 		    	<p><span>商家名称：&nbsp;</span>优者数码旗舰店</p>
 		     </div>
+		<!-- 商品来源   -->
+		     <div class="d-shu">
+		    	<p><span><strong>商品属性</strong></span>&nbsp;&nbsp;|&nbsp;&nbsp;Commodity attribute</p>
+		    	<p>品牌：优者</p>
+		    	<p>颜色：黑色</p>
+		    	<p>功能：心率监测-拍照-智能提醒-睡眠监测</p>
+		    	<p>连接方式：蓝牙</p>
+		    	<p>通讯类型：可插卡</p>	    	
+		     </div>
+		     
+		 <!-- 图片区   -->  
+		    <div class="d-tu">
+		    	<p><span><strong>商品详情</strong></span>&nbsp;&nbsp;|&nbsp;&nbsp;Product  details</p>
+		    	<ul>
+		    		<li><img src="/myProject/images/myImg/tu1.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu2.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu3.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu4.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu5.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu6.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu7.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu8.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu9.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu10.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu11.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu12.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu13.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu14.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu15.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu16.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu17.jpg" alt=""/></li>
+		    		<li><img src="/myProject/images/myImg/tu18.jpg" alt=""/></li>
+		    	</ul>
+		    	<p class="d-cha"><a href="">查看简介详情</a></p>
+		    </div>
+		 
     </div>
 </section>
  <footer class="d-footer">
