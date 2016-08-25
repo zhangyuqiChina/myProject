@@ -9,14 +9,9 @@
 			<!--轮播图-->
 			<div class="swiper-container" id="home-container">
 			 			<div class="swiper-wrapper">
-						   	<div class="swiper-slide"><img src="/myProject/images/img1.jpg"/></div>
-						    <div class="swiper-slide"><img src="/myProject/images/img2.jpg"/></div>
-						    <div class="swiper-slide"><img src="/myProject/images/img3.jpg"/></div>
-						    <div class="swiper-slide"><img src="/myProject/images/img4.jpg"/></div>
-						    <div class="swiper-slide"><img src="/myProject/images/11.png"/></div>
-						    <div class="swiper-slide"><img src="/myProject/images/5.jpg"/></div>
-						    <div class="swiper-slide"><img src="/myProject/images/6.jpg"/></div>
-						    <div class="swiper-slide"><img src="/myProject/images/7.jpg"/></div>
+						   	<div class="swiper-slide"  ms-repeat-hc="homeCarousels">
+						   	<img ms-src="hc.thumbnailUrl"/>
+						   	</div>
 	  		   			</div>
 	  		   			<div class="swiper-pagination"></div>
 	  		</div>	
@@ -27,152 +22,49 @@
   			<!--横向滚动轮播图-->
 			<div class="swiper-container" id="home-container1">
 			 		<ul class="swiper-wrapper">
-			 						<li class="swiper-slide" >
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li><li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li><li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
+			 						<li class="swiper-slide" ms-repeat-hc="homeGoodgroups">
+			 							<img ms-src="hc.mainGood.thumbnailUrl" />
+				 						<p class="h-nan">
+				 							<b ms-text="hc.mainGood.subTitle"></b>
+				 						</p>
+										<p class="h-nan">
+											<span>
+											¥<b ms-text="(hc.mainGood.peroidInstalmentAmount/1000).toFixed(2)"></b>
+											</span>
+											x
+											<b ms-text="(hc.mainGood.instalmentPeriods)"></b>
+											期
+										</p>
 			 						</li>
 			 		</ul>
 			</div>
 			<!--下面是开始抓包用的-->
-			<!--<div class="h-homeContent">
-						<ul>
-							<li ms-repeat-el="livelist">
-								<div class="hxb-home">
-									<img ms-src="el.subject.thumbnailUrl" alt=""/>
-								</div>
-								<div class="swiper-container" id="home-container2">
-								 		<ul class="swiper-wrapper">
-								 						<li class="swiper-slide" >
-								 							<img  ms-src="el.mainGood.thumbnailUrl" alt=""/>
-									 						<p class="h-nan">
-									 							<b ms-text="el.subTitle"></b>
-									 						</p>
-															<p class="h-nan">
-																<span>
-																	<b ms-text="el.peroidInstalmentAmount"></b>
-																</span>
-																	<b ms-text="el.instalmentPeriods"></b>
-																</p>
-								 						</li>
-								 		</ul>
-									</div>
-							</li>
-					</ul>
-			</div>-->
-			
-			
-			<!--大图片-->
-			<div class="hxb-home">
-				<img src="/myProject/images/huo.jpg" />
-			</div>
-			<!--横向轮播图1-->
-			<div class="swiper-container" id="home-container2">
-			 		<ul class="swiper-wrapper">
-			 						<li class="swiper-slide" >
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li><li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li><li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 		</ul>
-			</div>
-			<!--大图片-->
-			<div class="hxb-home1">
-				<img src="/myProject/images/huo.jpg" />
-			</div>
-			<!--横向轮播2-->
-			<div class="swiper-container" id="home-container3">
-			 		<ul class="swiper-wrapper">
-			 						<li class="swiper-slide" >
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 						<li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li><li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li><li class="swiper-slide">
-			 							<img src="/myProject/images/hwatch.jpg" />
-				 						<p class="h-nan">【友者】男女系类手表</p>
-										<p class="h-nan"><span>￥37.42</span>x12期</p>
-			 						</li>
-			 		</ul>
+			<div>
+				<ul>
+					<li ms-repeat-hc="homeGoodgroups">
+						<div class="hxb-home">
+							<img ms-src="hc.subject.thumbnailUrl" alt=""/>
+						</div>
+						<div class="home-container2 swiper-container">
+						 		<ul class="swiper-wrapper">
+				 						<li class="swiper-slide" ms-repeat-hc="homeGoodgroups1">
+				 							<img ms-src="hc.thumbnailUrl" alt=""/>
+					 						<p class="h-nan">
+					 							<b ms-text="hc.subTitle"></b>
+					 						</p>
+											<p class="h-nan">
+												<span>
+													¥
+													<b ms-text="(hc.peroidInstalmentAmount/1000).toFixed(2)"></b>
+												</span>
+													x<b ms-text="hc.instalmentPeriods"></b>
+													期
+											</p>
+				 						</li>
+						 		</ul>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>		
 	</section>

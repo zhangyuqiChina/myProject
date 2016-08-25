@@ -68,7 +68,12 @@
                     font-size: .2rem;
                     height: .25rem;
                 }
+                &.active i,
+                &.active b{
+                        color:$base-color;
+                    }
             }
+           
         }
     }
 }
