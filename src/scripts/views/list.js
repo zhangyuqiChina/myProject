@@ -20,7 +20,7 @@ SPA.defineView('list', {
   	},
   	
   	'gotoDetails': function(el,data){
-		SPA.open('car', {
+		SPA.open('my-2', {
 			param:{
 				id: data.goodscode
 			}

@@ -9,3 +9,4 @@ require('./views/car.js');
 require('./views/my.js');
 require('./views/list.js');
 require('./views/my-1.js');
+require('./views/my-2.js');
