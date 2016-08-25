@@ -1,0 +1,221 @@
+
+.d-header2{
+        width: 100%;
+        height: .83rem;
+        background: #fff;
+        @include flexbox();
+        @include justify-content(center);
+        @include align-items(center);
+        border-bottom: 1px solid #d9d9d9;
+        position: relative;
+        border-bottom: 1px solid #eee;
+       ul{ 
+           width: 100%;
+           height: .83rem;
+           li{
+               float: left;
+           }
+           li:nth-child(1) img{
+               position: absolute;
+               left:.20rem;
+               top:.25rem;
+               line-height: .83rem;
+               width:.16rem;
+               height:.28rem;
+           }
+           li:nth-child(2) span{
+               line-height: .83rem;
+               position:absolute;
+               font-size:.20rem;
+               left:35%;
+              
+           }
+           li:nth-child(3) img{
+              position: absolute;
+               top:.16rem;
+               right:0;
+               line-height: .83rem;
+               width:1.2rem;
+           }
+       }
+    }
+
+     //主图片上文字
+     .d-wen{
+         width:100%;
+         height:2.92rem;
+         ul{
+             width:100%;
+             height:2.92rem;
+             li:nth-child(1){
+                 text-align: center;
+                 font-size: .22rem;
+                 padding-top:.30rem;
+             }
+             li:nth-child(2){
+                 text-align: center; 
+               padding-top:.20rem;
+             }
+              li:nth-child(3){
+                  color:#eb2266;
+                 text-align: center;
+                 font-size: .22rem;
+                 padding-top:.30rem;
+             }
+               li:nth-child(4){
+                  color:#949494;
+                 text-align: center;
+                 font-size: .16rem;
+                 padding-top:.25rem;
+             }
+         }
+     }
+     
+     //主图片
+     .d-zhu{
+         width:100%;
+         height:4rem;
+         border-bottom:1px solid #eee;
+            .d-zhufu{
+                margin:0 auto;
+                width:65%;
+                img{
+                    width:100%;
+                }
+            }
+         
+     }
+     
+     //商品来源
+     .d-lai{
+         width:100%;
+         height:1.8rem;
+         border-bottom: 1px solid #eee ;
+         p:nth-child(1){
+             padding-top: .20rem;
+             padding-left: .20rem;
+             span{
+                 font-size:.20rem                
+             }
+         }
+          p:nth-child(2){
+             margin-top: .30rem;
+             padding-left: .20rem;
+             span{
+                 color:red;                
+             }
+         }
+         p:nth-child(3){
+             margin-top: .10rem;
+             padding-left: .20rem;
+             
+         }
+     }
+     //商品属性
+     .d-shu{
+         width:100%;
+         height:3.4rem;
+         border-bottom: 1px solid #eee ;
+         p{
+             margin-top: .30rem;
+             padding-left: .20rem;
+         }
+         p:nth-child(1){
+             padding-top: .20rem;
+             padding-left: .20rem;
+             span{
+                 font-size:.20rem                
+             }
+         }
+         
+     }
+     
+     //商品图片
+     .d-tu{
+         width:100%;
+         border-bottom: 2px solid #eee;
+         p{
+             padding-top: .20rem;
+             padding-bottom: .20rem;
+             padding-left: .20rem;
+             span{
+                 font-size:.20rem                
+             }
+         }
+         ul{
+             width:100%;
+             li{
+                 width:100%;
+                 img{
+                     width:100%;
+                 }
+             }
+         }
+         .d-cha{
+             color:blue;
+             margin-left:70%;
+         }
+     }
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+.d-footer{
+      width:100%;
+      height:.56rem;
+      ul{
+          width:100%;
+          height:.56rem;
+          li{
+              float: left;             
+          }
+          li:nth-child(1){
+              width:26%;
+              height:.56rem;
+              background:#3b3b3b;
+              color:#fff;
+              
+                  img{
+                      margin-left:35%;
+                      width:.26rem;
+                      height:.26rem;
+                      color:#fff;
+                  }
+                  p{text-align: center;}
+             
+          }
+          li:nth-child(2){
+              width:37%;
+              height:.56rem;
+              background:#ffb077;
+              font-size:.22rem;
+              text-align: center;
+              line-height:.56rem ;
+              a{
+                  color: #fff;
+              }
+          }
+          li:nth-child(3){
+              width:37%;
+              height:.56rem;
+              background:#f54b78;
+              font-size:.22rem;
+              text-align: center;
+              line-height:.56rem ;
+              a{
+                  color: #fff;
+              }
+          }
+      }
+}
+
+
