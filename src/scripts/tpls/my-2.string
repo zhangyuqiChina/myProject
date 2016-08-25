@@ -1,7 +1,7 @@
 
 <header class="d-header2">
 	<ul>
-		<li><img src="/myProject/images/myImg/zuo.jpg" alt="" class="d-img1"/></li>
+		<li action-type="dBack"><img src="/myProject/images/myImg/zuo.jpg" alt="" class="d-img1"/></li>
 		<li><span><strong>商品详情</strong></span></li>
 		<li><img src="/myProject/images/myImg/fen.jpg" alt="" class="d-img2"/></li>
     </ul>

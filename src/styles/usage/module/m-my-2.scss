@@ -14,6 +14,10 @@
            height: .83rem;
            li{
                float: left;
+               &:first-child{
+                   width: 64px;
+                   height: 100%;
+               }
            }
            li:nth-child(1) img{
                position: absolute;
