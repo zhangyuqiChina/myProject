@@ -1,22 +1,25 @@
 <div class="q-list">
 	<!--头部-->
 	<header class="q-header">
+		<i class="yo-ico" action-type="back">&#xe67b;</i>
 		<span><img src="/myProject/images/home_img.png" alt="" /></span>
 	</header>
-	<section class="q-listContent">
-		<div>
-			<div class="q-listImg"><img src="/myProject/images/img3.jpg" alt="" /></div>
+	<div class="q-listContent">
+		<section spa-widget="scroll">
+			<div>
+			<div class="q-listImg"><span><img ms-src="{{bannerUrl}}" alt="" /></span></div>
 			<div class="q-listUl">
 				<ul>
-					<li>
-						<div class="q-list-liImg"><img src=""/></div>
+					<li ms-repeat-d="qlist" action-type="gotoDetails" ms-attr-data-goodsCode="d.goodsCode">
+						<div class="q-list-liImg"><img ms-src="d.thumbnailUrl"/></div>
 						<div class="q-list-liText">
-							<p></p>
-							<p></p>
+							<p ms-text="d.goodTitle"></p>
+							<p><span ms-text="(d.originalPrice/1000).toFixed(2)"></span><em ms-text="d.instalmentPeriods"></em></p>
 						</div>
 					</li>
 				</ul>
 			</div>
-		</div>
-	</section>
+			</div>
+		</section>
+	</div>
 </div>

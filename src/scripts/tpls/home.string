@@ -1,7 +1,136 @@
-<section>
-    <!--头部-->
-	<header>
-		小象优品
+	<header class="home-header">
+		<span>
+			<img src="/myProject/images/home_img.png" />
+		</span>
 	</header>
-</section>
+	<!--中间-->
+	<section spa-widget='scroll' id="home-back">
+		<div class="scroll">
+			<!--轮播图-->
+			<div class="swiper-container" id="home-container">
+			 			<div class="swiper-wrapper">
+						   	<div class="swiper-slide"  ms-repeat-hc="homeCarousels">
+						   	<img ms-src="hc.thumbnailUrl"/>
+						   	</div>
+	  		   			</div>
+	  		   			<div class="swiper-pagination"></div>
+	  		</div>	
+	  		<!--标题-->
+  	 		<h3 class="h-xin">
+  				·  新品推荐      ·
+  			</h3>
+  			<!--横向滚动轮播图-->
+			<div class="swiper-container" id="home-container1">
+			 		<ul class="swiper-wrapper">
+			 						<li class="swiper-slide" ms-repeat-hc="homeGoodgroups">
+			 							<img ms-src="hc.mainGood.thumbnailUrl" />
+				 						<p class="h-nan">
+				 							<b ms-text="hc.mainGood.subTitle"></b>
+				 						</p>
+										<p class="h-nan">
+											<span>
+											¥<b ms-text="(hc.mainGood.peroidInstalmentAmount/1000).toFixed(2)"></b>
+											</span>
+											x
+											<b ms-text="(hc.mainGood.instalmentPeriods)"></b>
+											期
+										</p>
+			 						</li>
+			 		</ul>
+			</div>
+			<!--下面是开始抓包用的-->
+			<div>
+				<ul>
+					<li ms-repeat-hc="homeGoodgroups">
+						<div class="hxb-home">
+							<img ms-src="hc.subject.thumbnailUrl" alt=""/>
+						</div>
+						<div class="home-container2 swiper-container">
+						 		<ul class="swiper-wrapper">
+						 			
+				 						<li class="swiper-slide" ms-repeat-hc="homeGoodgroups1">
+				 							<img ms-src="hc.thumbnailUrl" alt=""/>
+					 						<p class="h-nan">
+					 							<b ms-text="hc.subTitle"></b>
+					 						</p>
+											<p class="h-nan">
+												<span>
+													¥
+													<b ms-text="(hc.peroidInstalmentAmount/1000).toFixed(2)"></b>
+												</span>
+													x<b ms-text="hc.instalmentPeriods"></b>
+													期
+											</p>
+				 						</li>
+				 						
+						 		</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>		
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	<!--<ul class="h-tui">
+  		<li>
+  			<img src="/myProject/images/hwatch.jpg" />
+  			<p>【友者】男女系类手表</p>
+  			<p><span>￥37.42</span>x12期</p>
+  		</li>
+  		<li>
+  			<img src="/myProject/images/hwatch.jpg" />
+  			<p>【友者】男女系类手表</p>
+  			<p><span>￥37.42</span>x12期</p>
+  		</li>
+  		<li>
+  			<img src="/myProject/images/hwatch.jpg" />
+  			<p>【友者】男女系类手表</p>
+  			<p><span>￥37.42</span>x12期</p>
+  		</li>
+  	</ul>-->
+  	
+		
 
